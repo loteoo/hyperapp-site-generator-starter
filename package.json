@@ -1,27 +1,17 @@
 {
-  "version": "1.0.0",
   "name": "hyperapp-starter",
-  "description": "Hyperapp PWA starter",
-  "author": "Alexandre Lotte <dev@alexlotte.ca>",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "prerender": "npm run build && hyperstatic",
-    "preview": "vite preview --port 8080"
+    "dev": "../hyperstatic/cli.js",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "hyperapp": "^2.0.18",
-    "hyperapp-jsx-pragma": "^1.3.0",
-    "hyperstatic": "^2.1.1",
-    "sanitize.css": "^12.0.1"
+    "hyperapp": "^2.0.22"
   },
   "devDependencies": {
-    "postcss-nested": "^5.0.5",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.2.3",
-    "vite": "^2.1.5"
-  },
-  "browserslist": [
-    "last 1 Chrome version"
-  ]
+    "typescript": "^5.2.2",
+    "typescript-plugin-css-modules": "^5.1.0"
+  }
 }

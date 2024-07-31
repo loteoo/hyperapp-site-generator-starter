@@ -1,50 +1,56 @@
+<p align="center">
+  <a href="https://github.com/jorgebucaran/hyperapp">
+    <img alt="Hyperapp starter logo" src="https://github.com/loteoo/hyperapp-starter/blob/main/public/logo.png" width="80" />
+  </a>
+</p>
 <h1 align="center">
-  Hyperstatic starter
+  Hyperapp starter
 </h1>
 
-[Live demo](https://hyperstatic-starter.netlify.app/)
-
-[Hyperstatic](https://hyperstatic.dev/)
+Starter template to get started quickly with Hyperapp + TypeScript + Vite.
 
 ## 🚀 Quick start:
 
-[Click here to use this template](https://github.com/loteoo/hyperstatic-starter/generate), or run these commands:
+[Click here to use this template](https://github.com/loteoo/hyperapp-starter/generate), or run these commands:
 
 ```
 # Clone project
-git clone https://github.com/loteoo/hyperstatic-starter.git
+git clone https://github.com/loteoo/hyperapp-starter.git
 
-cd hyperstatic-starter
+cd hyperapp-starter
 
-npm install         # Install dependencies
-npm run dev         # Dev server + live reload
+npm i               # Install dependencies
+npm run dev         # Dev server
 ```
 
-Or use a [.zip download](https://github.com/loteoo/hyperstatic-starter/archive/master.zip)
-
-#### Building your site :
-
 ```
-# Build for production (no prerender)
-npm run build
-
-# Build for production and prerender pages
-npm run prerender
-
-# Preview production build locally
-npm run preview
+npm run build       # Build for production
+npm run preview     # Preview production build
 ```
+
+Or use a [.zip download](https://github.com/loteoo/hyperapp-starter/archive/main.zip)
 
 ## Features
 
 - [Vite](https://vitejs.dev/) for dev tooling
-- Written in TypeScript
-- CSS modules + nested syntax
-- Smart CSS defaults on top of [sanitize.css](https://csstools.github.io/sanitize.css/)
-- [JSX](https://reactjs.org/docs/introducing-jsx.html) ready to go
-- Absolute imports (say goodbye to the `../../` hell)
-- PWA/SPA ready with a default web app manifest
+- JSX ready to go
+- Strict TypeScript
+- Typed CSS modules (enable workspace TS version)
+- Pages + SPA router & navigation
+
+## Live demo
+
+See live demo here: https://hyperapp-starter.pages.dev/
 
 ---
 
-This starter project was based on this [Hyperapp starter](https://github.com/loteoo/hyperapp-starter).
+Basic CRUD actions with hyperapp 2.0  
+https://github.com/loteoo/hyperapp-todolist
+
+<!-- ### Need code splitting and pre-rendering out of the box?
+
+Checkout [hyperstatic](https://github.com/loteoo/hyperstatic) and the [hyperstatic starter](https://github.com/loteoo/hyperstatic-starter) instead! -->
+
+---
+
+Give the repo a star if you like this!
